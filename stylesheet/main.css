@@ -1,0 +1,77 @@
+body{
+	direction:rtl;
+	
+	}
+.main_top{
+	width: 100%;
+	margin-top: 1px;
+	background-image:url(../img/header-texttuer.jpg)
+	}
+.logo{
+	width: 30vw;
+	margin: 0px auto;
+	}
+.logo a {
+	
+	margin:0px auto;
+	}	
+.left{
+	float:left;
+	width:100%;
+margin:0px auto;
+}
+.slidshow {
+	padding: 0px 0px;
+	height: 300px;
+	-webkit-box-shadow: 7px 11px 42px 17px #ABA9A9;
+	box-shadow: 7px 11px 42px 17px #ABA9A9;
+	}
+.slidshow img {
+	height:100%;
+	
+	}
+
+.main_center{
+	width: 100%;
+	float: right;
+	display: block;
+	margin:0px auto;
+	margin-top: 20px;
+	
+	}	
+.product{
+	width: 70%;
+	float: left;
+	display: block;
+	margin-left: 5%;
+	box-shadow: 10px 10px 33px #979797;
+	-webkit-box-shadow: 10px 10px 33px #979797;
+	}	
+	.login{
+	width: 43%;
+	float: right;
+	display: block;
+	margin-right:5%;
+	box-shadow: 10px 10px 33px #979797;
+	-webkit-box-shadow: 10px 10px 33px #979797;
+	}	
+	.signup{
+	width: 43%;
+	float: left;
+	display: block;
+	margin-left: 5%;
+	box-shadow: 10px 10px 33px #979797;
+	-webkit-box-shadow: 10px 10px 33px #979797;
+	}	
+	
+	
+.side{
+	width: 15%;
+	float: right;
+	display: block;
+	
+	}	
+	
+	
+@media (width:800px){
+}

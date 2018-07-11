@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>کتاب خوب</title>
+<meta charset="UTF-8"> 
+<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/w3.css">
+</head>
+<body>
+
+
+<!-- this is for menu  logo 
+and serach bar  -->
+
+<div class="main_top w3-border-black"> 
+         <div class="left">
+                <div class="logo w3-container">
+                        <a href=""> <img style="width:100%;" src="img/logo.png"</a>
+                </div> 
+         </div>
+         <div class="right w3-bar w3-padding-8">
+                <div class="menu w3-margin-bottom w3-content">
+                        <a class="w3-btn w3-round-large w3-green w3-hover-blue-gray" href="">صفحه اصلی </a>
+                        <a class="w3-btn w3-green w3-round-large w3-hover-blue-gray " href=""> ورود </a>
+                        <?php?>
+                </div>   
+        </div>  
+</div>
+<div class="slidshow w3-content w3-display-container   w3-margin-top">
+<a href=""><img  class="myslides"    style="width:100%"; src="img/s-baner6.jpg"/></a>
+<a href=""><img  class="myslides"    style="width:100%"; src="img/s-baner5.jpg"/></a>
+<a href=""><img  class="myslides"    style="width:100%"; src="img/s-baner3.jpg"/></a>
+<a href=""><img  class="myslides"    style="width:100%"; src="img/s-baner5.jpg"/></a>
+
+
+<button class="w3-btn w3-blue-gray w3-display-left"onClick="plusdivs(-1)">
+	&#10095;
+</button>
+
+
+<button class="w3-btn w3-blue-gray w3-display-right"onClick="plusdivs(1)">
+	&#10094; 
+</button>
+
+
+
+
+<?php?>
+
+</div>
+
+
+<!-- this is for books and left for sugesting   -->
+<div class="main_center"> 
+        <div class="product w3-panel w3-border w3-display-container w3-border-black w3-round"><?php?>center</div><div class="side w3-panel w3-border w3-border-black"> side </div> 
+</div>
+
+
+
+
+<!-- just info like contact addres  and etc,  -->
+<div class="main_battom">   </div>
+<script>
+var slideIndex = 1;
+showdivs(slideIndex);
+
+function plusdivs(n) {
+  showdivs(slideIndex += n);
+}
+
+function showdivs(n) {
+  var i;
+  var x = document.getElementsByClassName("myslides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {	
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html> 
